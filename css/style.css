@@ -1,0 +1,1270 @@
+@font-face{
+	font-family: 'Myriad Pro';
+	src: url("../font/MYRIADPRO-REGULAR.OTF") format('truetype');
+	font-style: normal;
+	font-weight: 200;
+}
+@font-face{
+	font-family: 'Myriad Pro';
+	src: url("../font/MYRIADPRO-BOLD.OTF") format('truetype');
+	font-style: normal;
+	font-weight: 800;
+}
+@font-face{
+	font-family: 'Myriad Pro';
+	src: url("../font/MyriadPro-Light.otf") format('truetype');
+	font-style: normal;
+	font-weight: 100;
+}
+@font-face{
+	font-family: 'Myriad Pro';
+	src: url("../font/MYRIADPRO-SEMIBOLD.OTF") format('truetype');
+	font-style: normal;
+	font-weight: 400;
+}
+
+body{
+	font-family: "Myriad Pro";
+	font-size: 14px;
+	color: #000000;
+}
+
+.inicio{
+	background-color:#FFFFFF;
+	color: #000000;
+ 	padding-top:5px;
+	text-align: center;
+	transition-property: background-color;
+	transition-duration: 750ms;
+}
+.inicio:hover{
+	background-color: #EC576B;
+}
+.productos{
+	background-color:#FFFFFF;
+	color: #000000;
+ 	padding-top:5px;
+	text-align: center;
+	transition-property: background-color color;
+	transition-duration: 750ms;
+}
+.productos:hover{
+	background-color: #E5E338;
+	color: #1B1B1B!important;
+}
+.quienessomos{
+	background-color:#FFFFFF;
+	color: #000000;
+ 	padding-top:5px;
+	text-align: center;
+	transition-property: background-color;
+	transition-duration: 750ms;
+}
+.quienessomos:hover{
+	background-color: #4EC5C1;
+}
+.contactanos{
+	background-color:#FFFFFF;
+	color: #000000;
+ 	padding-top:5px;
+	text-align: center;
+	transition-property: background-color;
+	transition-duration: 750ms;
+}
+.contactanos:hover{
+	background-color: v;
+}
+
+header{
+	background-color: #ffffff;
+	text-align: center;
+	font-weight: 300;
+	justify-content: center!important;
+	
+}
+.fondoheader-a{
+	background-color: #C6E5E5;
+	padding-bottom: 25px;
+
+}
+.fondoheader-r{
+	background-color: #EC576B;
+	padding-bottom: 25px;
+
+}
+.img-bc{
+		border-top: 15px solid #EC576B;
+
+}
+.fondoheader-b{
+	background-color: #ffffff;
+	border-top: 15px solid #C6E5E5;
+
+}
+.fondo-a{
+	background-color: #4EC5C1;
+	padding: 25px;
+	color: #FFFFFF;
+}
+.fondo-r{
+	background-color: #EC576B;
+	padding: 25px;
+	color: #FFFFFF;
+}
+.fondo-am{
+	background-color: #E5E338;
+	padding: 25px;
+}
+
+
+header hr{
+	height: 3px;
+	width: 100%;
+	background-color: #E5E338;
+	position: relative;
+	margin-buttom:5px;
+	margin-bottom: 1px;
+	margin-top: 1px;
+}
+nav ul{
+	text-align:  center!important;
+}
+ 
+#nueva{
+	background-image: url("../img/portada.jpg");
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 5% 0 7% 0;	
+	text-align: center;
+
+}
+#nueva p{
+	text-transform: none!important;
+	margin-bottom: 35%;
+	font-weight: 200;
+}
+
+
+#nueva .btn{
+	vestical-align: text-bottom;
+	text-align: right;
+	float:right;
+}
+
+#destacados{
+	text-align: center;
+	text-transform: uppercase;
+	padding: 50px 0px;
+}
+#destacados article{
+	margin-top: 30px;
+	padding: 0 25px;
+}
+#destacados img{
+	height: 200px;
+	width: 400px;
+	object-fit: cover;
+	image-responsive: Auto;
+}
+
+#destacados button{
+	color: #FFFFFF;
+	background-color: #EC576B!important;
+	border: none;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 10px 15px;
+	}
+
+#suscripcion article{
+	background-color: #E5E338;
+	padding: 80px 0;
+	text-align: center;
+	text-transform: uppercase;
+	color: #000000;
+}
+.bg-suscripcion{
+	background-image: url("../img/oficina-aprende-mas.webp");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	text-align: center;
+}
+#suscripcion h2{
+	font-size: 42px;	
+}
+#suscripcion p{
+	font-size: 20px;	
+}
+#suscripcion h3{
+	font-size: 16px!important;	
+}
+#suscripcion button{
+	color: #FFFFFF;
+	background-color: #EC576B!important;
+	border: none;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 10px 15px;
+	}
+.bg-suscripcion-20{
+	background-image: url("../img/fondo-20off.PNG");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	text-align: center;
+}
+.sala-firenze a{
+	color: #FFFFFF;
+}
+#promo-ropa-de-cama a{
+	color: #FFFFFF;
+}
+#suscripcion-20 h2{
+	font-size: 42px;
+	font-style: oblique;
+}
+#suscripcion-20 p{
+	font-size: 20px;	
+}
+#suscripcion h3{
+	font-size: 16px!important;	
+}
+#suscripcion-20 button{
+	background-color:  #E5E338!important;
+	border: none;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 10px 35px;
+	}
+#suscripcion-20 a{
+	color: #000000;
+	}
+#suscripcion-20 article{
+	background-color: #EC576B;
+	padding: 80px 0;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+#p-altavoces{
+	text-align: center;
+	text-transform: uppercase;
+	padding: 50px 0px;
+}
+
+#productos{
+	text-align: center;
+	text-transform: uppercase;
+	padding: 50px 0px;
+}
+#productos article{
+	margin-top: 30px;
+	padding: 0 25px;
+}
+#p-altavoces{
+	text-align: center;
+	text-transform: uppercase;
+	padding: 50px 0px;
+}
+#p-altavoces article{
+	margin-top: 30px;
+	padding: 0 25px;
+}
+#p-altavoces img{
+	height: 200px;
+	width: 400px;
+	object-fit: contain;
+	image-responsive: Auto;
+}
+#p-escritorios .precio{
+	text-align: left;
+}
+#p-escritorios{
+	text-align: left;
+	text-transform: uppercase;
+	padding: 50px 0px;
+}
+#p-escritorios{
+	margin-top: 30px;
+	padding: 0 25px;
+}
+#p-escritorios img{
+	height: 300px;
+	width: 400px;
+	object-fit: contain;
+	image-responsive: Auto;
+}
+#productos img{
+	height: 200px;
+	width: 400px;
+	object-fit: cover;
+	image-responsive: Auto;
+}
+#p-chimenea img{
+	height: 250px;
+	width: 400px;
+	object-fit: cover;
+	image-responsive: Auto;
+}
+#sala-moderna .bg-sala{
+	background-image:url("../img/sala-moderna.jpg");
+	padding: 100px;
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size:cover;
+	text-align: center;
+	}
+
+#p-entretenimiento button{
+	color: #FFFFFF;
+	background-color: #EC576B!important;
+	border: none;
+	border-radius: 10px;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 5px 15px;
+	margin-top: 30px;
+	}
+#p-entretenimiento button a{
+	color: #FFFFFF;
+	}
+#sala-moderna button{
+	color: #FFFFFF;
+	background-color: #EC576B!important;
+	border: none;
+	border-radius: 10px;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 5px 15px;
+	margin-top: 30px;
+	}
+#sala-moderna, button a{
+	color: #FFFFFF;
+	}
+#sala-moderna h3{
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: 800;
+	}
+#sala-moderna h4{
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: 200;
+	margin-top: -25px;
+	}
+#sala-moderna .sala-firenze{
+
+	padding-top: 15px;
+	margin-right: -150px;
+	margin-bottom: -150px;
+}
+#sala-moderna .precio1{
+	
+	text-align: left;
+	margin-bottom: 200px;
+	margin-left: -250px;
+}
+#sala-moderna p{
+margin-top: 25px;
+}
+
+.azul-sala{
+background-color: #4EC5C1;
+}
+sala-moderna .container h2{
+	padding-top: 10px;
+	margin-left: -100%;
+	margin-bottom: 50px;
+}
+.sala{
+font-size: 0.8vw!important;
+}
+#p-sala-de-estar img{
+	height: 300px;
+	width: 400px;
+	object-fit: contain;
+	image-responsive: Auto;
+}
+.a-img{
+	height: 300px;
+	width: 400px;
+	object-fit: cover;
+	image-responsive: Auto;
+}
+#p-sala-de-estar2 img{
+	padding-top: 50px;
+}
+#p-sala-de-estar2 img{
+	height: 300px;
+	width: 400px;
+	object-fit: contain;
+	image-responsive: Auto;
+}
+#p-sala-de-estar3 img{
+	height: 300px;
+	width: 400px;
+	object-fit: cover;
+	image-responsive: Auto;
+}
+#p-cuna .fondo-a{
+	margin: 2% 0;
+}
+.b-entretenimiento{
+	background-image:url("../img/entretenimiento-portada.jpg");
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size:contain;
+	padding: 100px;
+}
+.b-escritorio{
+	background-image:url("../img/fondo-oficina.PNG");
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size:contain;
+}
+.b-cuna{
+	background-image:url("../img/baby department/baby1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	padding: 100px;
+}
+.img-b{
+	background-image: url("../img/escritorio-gris.PNG");
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size:contain;
+}
+.img-b-s{
+	background-image: url("../img/sala-exterior.png");
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size:contain;
+}
+.bg-carrito{
+	background-image:url("../img/cama-con-respaldar-carrito.jpg");
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	padding: 200px;
+}
+#p-colchones img{
+	height: 250px;
+	width: 400px;
+	object-fit: cover;
+	image-responsive: Auto;
+}
+#p-salas img{
+	height: 200px;
+	width: 500px;
+	object-fit: cover;
+	image-responsive: Auto;
+}
+#p-colchones h3{
+	text-align: left;
+	margin: 0 0;
+}
+#p-colchones h2{
+	text-align: left;
+	margin-bottom: 5px;
+}
+#promo-colchones{
+	background-image:url("../img/cama-con-respaldar-carrito.jpg");
+	background-position: center;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #FFFFFF;
+	padding: 15%;
+}
+#promo-colchones2{
+	background-image:url("../img/cama-unipersonal.jpg");
+	background-position: center;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #FFFFFF;
+	padding: 15%;
+}
+.bg-50{
+	background-image:url("../img/50off.png");
+	background-position: center;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	color: #FFFFFF;
+	padding: 15%;
+}
+#promo-colchones a{
+	color: #FFFFFF;
+}
+#promo-colchones2 a{
+	color: #FFFFFF;
+}
+#p-comedores img{
+	height: 250px;
+	width: 400px;
+	object-fit: contain;
+	image-responsive: Auto;
+}
+#p-comedores2 img{
+	height: 300px;
+	width: 600px;
+	object-fit: cover;
+	image-responsive: Auto;
+}
+.b-comedores1{
+	background-image:url("../img/r-1-maysville.png");
+	background-position: center;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	color: #FFFFFF;
+	padding: 15%;
+}
+.red{
+	color: #FFFFFF;
+	background-color: #EC576B!important;
+	border: none;
+	border-radius: 10px;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 5px 10px;
+	}
+
+.azul{
+	color: #FFFFFF;
+	background-color: #4EC5C1;
+	border: none;
+	border-radius: 10px;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 5px 10px;
+	}
+
+.a-b{
+	color: #FFFFFF;
+}
+.box{
+position: relative;
+}
+.box:after{
+content :'';
+position: absolute;
+width: 100%;
+height:10px;
+background: #5FC0A5;
+top:45%;
+left: 0;
+z-index:-1
+}
+.box p{
+ position: relative;
+	background: white;
+	width: fit-content;
+	margin:0 auto;
+	padding: 14px;
+	font-size: 28px;
+	font-weight:800
+}
+#ropa-de-cama{
+	background-image:url("../img/Ropa de cama/Promocional ropa de cama.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #FFFFFF;
+	padding: 15%;
+}
+#ropa-de-cama h3{
+	text-align: right!important;
+}
+#promo-ropa-de-cama{
+	background-image:url("../img/Ropa de cama/Ropa de cama final.jpg");
+	background-position: center;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #FFFFFF;
+	padding: 10%;
+	
+}
+#compra a{
+	color: #FFFFFF;
+}
+#p-ropa-de-cama img{
+	height: 250px;
+	width: 400px;
+	object-fit: cover;
+	image-responsive: Auto;
+}
+#productos-r a{
+	color: #FFFFFF;
+}
+#productos-r{
+	text-align: center;
+}
+#productos-r img{
+	height: 250px;
+	width: 400px;
+	object-fit: contain;
+	image-responsive: Auto;
+}
+
+
+#promo-colchones div:first-child{
+	padding: 20px;
+}
+#promo-colchones2 div:first-child{
+	padding: 20px;
+}
+#promo-colchones{
+	padding: 250px 0;
+	margin-bottom: 25px;
+}
+#promo-colchones2{
+	padding: 250px 0;
+	margin-bottom: 25px;
+}
+#promo-colchones .precio{
+	color: #FFFFFF;
+	font-size: 32px;
+	text-align: left;
+	font-style: normal;
+}
+#promo-colchones p{
+	color: #FFFFFF;
+	font-size: 24px;
+	font-weight: 200;
+}
+#promo-colchones2 .precio{
+	color: #FFFFFF;
+	font-size: 32px;
+	font-style: normal;
+	text-align: right;
+	margin-right: 25px;
+}
+#promo-colchones2 p{
+	color: #FFFFFF;
+	font-size: 24px;
+	font-weight: 200;
+	text-align: right
+}
+#promo-colchones2{
+	padding: 15% 0;
+}
+#promo-ropa-de-cama{
+	padding: 250px 0;
+	margin-bottom: 25px;
+}
+#p-oficina .precio{
+	text-align: left;
+	color: #FFFFFF;
+	font-size: 40px;
+	border-top: #FFFFFF solid 4px;
+}
+#p-oficina p{
+	padding-top: 10px;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+#p-cuna p{
+	padding-top: 10px;
+	font-size: 25px;
+	color: #000000;
+	
+}
+#p-cuna .precio{
+	padding-top: 10px;
+	font-size: 45px;
+	color: #FFFFFF;
+	font-style: normal;
+}
+#p-cuna button{
+	color: #FFFFFF;
+	background-color: #EC576B!important;
+	border: none;
+	border-radius: 10px;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 5px 10px;
+	margin-top: 25px;
+	}
+#p-cuna a{
+	color: #FFFFFF;
+	}
+#p-cunas{
+	text-align: left;
+}
+#promo-ropa-de-cama .align-b{
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 24px;
+}
+#promo-ropa-de-cama .precio{
+	text-align: left;
+	color: #FFFFFF;
+	font-size: 30px;
+	border-top: #FFFFFF solid 4px;
+	font-weight: 800;
+	font-style: normal;
+}
+#promo-ropa-de-cama p{
+	padding-top: 10px;
+	font-size: 25px;
+	font-weight: 100;
+	text-align: left;
+}
+#p-oficina button{
+	color: #FFFFFF;
+	background-color: #EC576B!important;
+	border: none;
+	border-radius: 10px;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 5px 10px;
+	}
+#p-oficina a{
+	color: #FFFFFF;
+	}
+#p-entretenimiento .align-b{
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 24px;
+}
+#p-entretenimiento .precio{
+	text-align: left;
+	color: #FFFFFF;
+	font-size: 40px;
+	border-top: #FFFFFF solid 4px;
+}
+#p-entretenimiento p{
+	padding-top: 10px;
+	font-size: 20px;
+}
+#p-chimenea button{
+	color: #FFFFFF;
+	background-color: #EC576B!important;
+	border: none;
+	border-radius: 10px;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 5px 10px;
+	}
+#p-chimenea a{
+	color: #FFFFFF;
+}
+#p-chimenea .precio-a,.subtitulo2{
+	text-align: left!important;
+	}
+#p-entretenimiento .precio-a,.subtitulo2{
+	text-align: left!important;
+	}
+#carrito-kit .precio{
+	font-size: 28px;
+	font-weight: 600;
+	font-style: normal;
+}
+#carrito-kit .subtitulo-a{
+	font-weight: 300;
+	font-size: 25px;
+	
+}
+#carrito-kit .subtitulo2{
+	font-weight: 400;
+	font-size: 18px;
+	color:#4EC5C1;
+	margin: 0 0;
+	
+}
+#carrito-kit .btn{
+	font-size: 14px;
+	margin: 10px 0;
+	padding: 5px 10px;
+}
+#carrito-kit button{
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #EC576B!important;
+	border: none;
+	border-radius: 10px;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 5px 10px;
+}
+#carrito-kit a{
+	color: #FFFFFF;
+}
+#p-infantiles a{
+	color: #FFFFFF;
+}
+#p-infantiles img{
+	height: 300px;
+	object-fit: cover;
+	image-responsive: Auto;
+}
+#carritp-kit article{
+	background-color: #EC576B;
+	padding: 80px 0;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+#carrito-kit .precio{
+	font-size: 24px;
+	font-weight: 600; 
+}
+#carrito-kit img{
+	height: 300px;
+	width: 400px;
+	object-fit: cover;
+	image-responsive: Auto;
+}
+#p-carrito img{
+	height: 300px;
+	object-fit: cover;
+	image-responsive: Auto;
+}
+#p-carrito{
+	text-align: left;
+}
+#p-carrito .subtitulo2{
+	font-weight: 800;
+}
+#p-carrito  button{
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #EC576B!important;
+	border: none;
+	border-radius: 10px;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 5px 10px;
+}
+#p-carrito a{
+	color: #FFFFFF;
+}
+#carrito-kit article{
+	margin: auto;
+}
+#pagos article:first-child{
+	border-right: 5px solid #E5E338;
+}
+#pagos img{
+	width: 400px;
+	object-fit: cover;
+	image-responsive: Auto;
+}
+#pagos h3{
+	text-align: left;
+	margin-left: 25px;
+}
+#pagos article h2{
+	margin-left: 25px;
+}
+#pagos article{
+	margin: auto;
+}
+#map .section{
+	padding: 50px 0!important;
+}
+#quienes-somos .subtitulo-a{
+	text-align: left;
+}
+#ubicacion2{
+	color:#EC576B;
+	text-align: center;
+}
+#p-salas a{
+	color: #FFFFFF;
+}
+.div-p{
+	margin: 10px 0;
+	text-align: center;
+}
+.btn{
+	color: #FFFFFF;
+	background-color: #4EC5C1;
+	border: none;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 10px 15px;
+
+}
+.btn-primary:hover{
+	background-color: #133A39;
+}
+.rojo{
+	
+	color: #FFFFFF!important;
+	background-color: #EC576B!important;
+	border: none;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 10px 15px;
+
+}
+.titulo{
+	text-align: center;
+	font-size: 40px;
+	text-transform: uppercase;
+
+	color: #4EC5C1;
+}
+.subtitulo{
+	text-align: center;
+	font-size: 25px;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	font-style: oblique;
+}
+.titulo-a{
+	text-align: center;
+	font-size: 35px;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	color: #4EC5C1;
+}
+.subtitulo-p{
+	text-align: left;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	font-style: oblique;
+}
+.subtitulo-p-a{
+	text-align: left;
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	color: #4EC5C1;
+}
+.subtitulo-p-r{
+	text-align: left;
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	color: #EC576B;
+}
+.line-a{
+	margin: 5% 0 5% 25%;
+	height: 10px;
+	width: 80%;
+	background-color: #4EC5C1;
+	position: relative;
+	text-align: right;
+}
+.line-r{
+	margin: 5% 0 0 -30%;
+	height: 10px;
+	width: 100%;
+	background-color: #EC576B;
+	position: relative;
+}
+.subtitulo3{
+	text-align: left;
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	color:  #EC576B;
+}
+.subtitulo-a{
+	text-align: center;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	color: #4EC5C1;
+}
+
+.subtitulo2{
+	text-align: center;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.precio{
+	text-align: left;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	font-weight: 800;
+	color: #EC576B;
+}
+.precio-a{
+	text-align: left;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	color: #4EC5C1;
+	font-weight: 800;
+}
+.precioi{
+	text-align: left;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-top: 5px;
+	margin-bottom: 30px;
+	color: #EC576B;
+	font-weight: 600
+}
+
+
+
+.textprecio{
+	text-align: center;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	font-style: oblique;
+	background-color: #EC576B;
+	color: #FFFFFF;
+	padding: 5px;
+}
+.section{
+	padding: 50px 50px; 
+}
+
+.icono{
+	height: 30px;
+	image-responsive: Auto;
+}
+.icono-c{
+	height: 30px;
+	image-responsive: Auto;
+	margin-left: 10px;
+}
+.navtop{
+	vestical-align: text-bottom;
+	text-align: right;
+	float:right;
+}
+.navtop a{
+	font-size: 15px;
+	margin-left: 25px;
+}
+
+.navtop-2{
+	vestical-align: text-bottom;
+	text-align: right;
+	float:right;
+	color: #FFFFFF;
+}
+.navtop-2 a{
+	font-size: 15px;
+	margin-left: 25px;
+	color: #FFFFFF;
+}
+
+.inicio-sesion{
+	padding-bottom: 60px;
+}
+.inicio-sesion ul {
+margin-top: 10px;
+}
+.luxo-logo{
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-left: auto;
+
+}
+#compra .luxo-logo{
+	width: 80%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-left: auto;
+	margin-bottom: 25px;
+
+
+}
+#compra .cant{
+	font-size: 24px;
+	color: #333333;
+	margin-bottom: 20px;
+}
+
+#compra .line{
+	height: 10px;
+	width: 100%;
+	background-color: #4EC5C1;
+	position: absolute;
+  	top: 100%;
+  	margin-top: -60px;
+
+}
+#compra p{
+	margin-top: 25px;
+	font-style: normal;
+	font-weight: 100;	
+}
+.n-list li{
+	list-style:none;
+	font-weight: 100
+}
+#compra .subtitulo{
+	font-weight: 600;
+	font-style: normal;
+	text-transform: none;
+}
+#compra .subtitulo2{
+	font-weight: 600;
+	font-size: 32px;
+	font-style: normal;
+	text-transform: none;
+}
+#compra .precioi{
+	font-weight: 600;
+	font-size: 40px;
+	font-style: normal;
+	text-transform: none;
+}
+#compra .padre{
+  height: 100px;
+  position: relative;
+}
+#contacto{
+	background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/fondo-contacto.jpg");
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 10% 0px;	
+	text-align: left;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-size: 24px;
+}
+#contacto h1{
+	font-size: 10vw;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+.map-responsive{
+overflow: hidden;
+	padding-bottom: 50%;
+	position: relative;
+	height: 0;
+}
+.map-responsive iframe{
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+ hr{
+	height: 3px;
+	width: 100%;
+	background-color: #E5E338;
+	position: relative;
+	margin-buttom:5px;
+	margin-bottom: 1px;
+	margin-top: 1px
+}
+#ubicacion{
+	padding: 2% 0;
+	color: #FFFFFF;
+	background-color: #4EC5C1;
+	text-align: center;
+	font-size: 24px;
+}
+#pie {
+	background-color: #EC576B;
+	color: #FFFFFF;
+	padding: 15px 0;
+	text-align: center
+}
+#pie img{
+	height: 60px;
+}
+
+#pie .subtitulo{
+	font-size: 14px!important;
+	font-weight: 100!important;
+	margin: 0 15px!important;
+}
+#pie a{
+	color: #FFFFFF;
+}
+#pie .icono{
+	text-align: center;
+
+	margin-top: 15px;
+	margin-right: 15px;
+	height: 20px;
+	image-responsive: Auto;
+}
+#pie-a {
+	background-color: #4EC5C1;
+	color: #FFFFFF;
+	padding: 15px 0;
+	text-align: center
+}
+#pie-a img{
+	height: 60px;
+}
+
+#pie-a .subtitulo{
+	font-size: 14px!important;
+	font-weight: 100!important;
+	margin: 0 15px!important;
+}
+#pie a:hover{
+	color: #FFFFFF;
+}
+#pie-a a{
+	color: #FFFFFF;
+}
+#pie-a .icono{
+	text-align: center;
+
+	margin-top: 15px;
+	margin-right: 15px;
+	height: 20px;
+	image-responsive: Auto;
+}
+#pie-a a:hover{
+	color: #FFFFFF;
+}
+input[type="text"],
+input[type="email"],
+textarea,
+fieldset{
+	background-color: rgba(215,215,215,0.48);
+	width: 100%;
+	border: 1px solid #ffffff;
+	box-sizing: border-box;
+	padding: 25px;
+	color: white;
+}
+#comentario{
+	background-color: rgba(215,215,215,0.48);
+	width: 100%;
+	border: 1px solid #ffffff;
+	box-sizing: border-box;
+	padding: 25px;
+	color: white;
+	font-size: 24px;
+}
+
+input,textarea:invalid:required {
+	background-color: rgba(215,215,215,0.48);
+}
+input,textarea:valid {
+	border: 1px solid black;
+	background-color: rgba(215,215,215,0.48);
+}
